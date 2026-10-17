@@ -1,0 +1,74 @@
+{
+  "version": 2,
+  "template_version": "3a528c553883e59d7cfa",
+  "page_size": 20,
+  "site_id": "dcf91138fce930ea4a3af3c6",
+  "owner": "jyxwre",
+  "repo": "page-0f931f6e0211f664dd1eca8c",
+  "title": "科学网(v2ray)",
+  "mode": "repo",
+  "articles": [
+    {
+      "id": "0f931f6e0211f664dd1eca8c",
+      "a": "科学网(v2ray)",
+      "b": "",
+      "entity": "科学网(v2ray)",
+      "brand": "科学网(v2ray)",
+      "separator": "",
+      "path": "index.html",
+      "hash": "852df20c60edfea84a2e21cbd39f9316dc7963730c3b169daada4a2779d68506",
+      "content": {
+        "keyword1": "科学网(v2ray)",
+        "keyword2": "",
+        "primary_entity": "科学网(v2ray)",
+        "plans": [],
+        "clients": [],
+        "_offline": false,
+        "content": {
+          "AI_HERO_INTRO": "科学网(v2ray)：三档套餐，明码标价。基础版、旗舰版、团队版，月付年付任选。使用说明简明，常见问题按主题分组，先读再买。",
+          "AI_DESCRIPTION": "科学网(v2ray)：三档套餐，明码标价。基础版、旗舰版、团队版，月付年付任选。使用说明简明，常见问题按主题分组，先读再买。"
+        },
+        "_brand_page": {
+          "version": 3,
+          "body": "<style>\n:root{--ink:#081c30;--ink-2:#0b2545;--panel:#12314d;--panel-2:#16395a;--line:#1e4266;--amber:#f2a33c;--amber-soft:#ffc06a;--text:#eaf1f8;--muted:#9db4ca;--radius:26px;--shadow:0 26px 60px rgba(2,10,20,.45)}\n*{margin:0;padding:0;box-sizing:border-box}\nhtml{}\nbody{background:var(--ink);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,\"Segoe UI\",\"PingFang SC\",\"Hiragino Sans GB\",\"Microsoft YaHei\",sans-serif;line-height:1.7;-webkit-font-smoothing:antialiased}\na{color:var(--amber);text-decoration:none}\nmain{display:block}\n\n/* ---------- 首屏：窄栏居左，大面积留白 ---------- */\n.hero{min-height:100vh;display:grid;grid-template-columns:minmax(0,34rem) 1fr;align-items:center;padding:6rem clamp(1.5rem,7vw,7rem);background:var(--ink-2)}\n.hero-inner{max-width:34rem}\n.kicker{display:inline-block;font-size:.8rem;letter-spacing:.35em;color:var(--amber);border:1px solid var(--line);border-radius:999px;padding:.35rem 1rem;margin-bottom:2.2rem}\n.hero h1{font-size:clamp(2.6rem,6vw,4.4rem);line-height:1.12;font-weight:800;letter-spacing:.02em}\n.hero h1 em{font-style:normal;color:var(--amber)}\n.lede{margin-top:1.6rem;color:var(--muted);font-size:1.02rem}\n.lede strong{color:var(--text);font-weight:600}\n.anchor-tags{margin-top:2.8rem;display:flex;flex-wrap:wrap;gap:.8rem}\n.anchor-tags a{border:1px solid var(--line);border-radius:999px;padding:.55rem 1.25rem;font-size:.92rem;color:var(--text);background:rgba(18,49,77,.5);transition:background .2s,color .2s,border-color .2s}\n.anchor-tags a:hover{background:var(--amber);color:var(--ink);border-color:var(--amber)}\n.hero-note{margin-top:3.2rem;font-size:.85rem;color:var(--muted);border-left:2px solid var(--amber);padding-left:.9rem}\n\n/* ---------- 通用区块 ---------- */\nsection{padding:6rem clamp(1.5rem,7vw,7rem)}\n.sec-head{max-width:40rem;margin-bottom:3.5rem}\n.sec-head h2{font-size:clamp(1.7rem,3.4vw,2.4rem);font-weight:800;letter-spacing:.02em}\n.sec-head h2::before{content:\"\";display:block;width:2.4rem;height:3px;background:var(--amber);margin-bottom:1rem;border-radius:2px}\n.sec-head p{margin-top:.8rem;color:var(--muted)}\n\n/* ---------- 套餐：阶梯式递进 ---------- */\n.plans{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1.6rem;align-items:start}\n.plan{background:var(--panel);border-radius:var(--radius);box-shadow:var(--shadow);padding:2.4rem 2rem;border:1px solid var(--line)}\n.plan:nth-child(1){margin-top:6rem}\n.plan:nth-child(2){margin-top:3rem}\n.plan:nth-child(3){margin-top:0}\n.plan.featured{background:var(--amber);color:var(--ink);border-color:var(--amber)}\n.plan .badge{display:inline-block;font-size:.75rem;letter-spacing:.2em;padding:.25rem .8rem;border-radius:999px;background:var(--ink);color:var(--amber-soft);margin-bottom:1.2rem}\n.plan:not(.featured) .badge{background:var(--ink-2);color:var(--muted)}\n.plan h3{font-size:1.25rem;font-weight:700}\n.price{margin-top:1rem;font-size:2rem;font-weight:800;line-height:1.2}\n.annual{margin-top:.3rem;font-size:.88rem;opacity:.75}\n.plan ul{list-style:none;margin-top:1.6rem;display:grid;gap:.7rem}\n.plan li{padding-left:1.3rem;position:relative;font-size:.95rem}\n.plan li::before{content:\"\";position:absolute;left:0;top:.62em;width:.5rem;height:.5rem;border-radius:50%;background:var(--amber)}\n.plan.featured li::before{background:var(--ink)}\n.plan .foot{margin-top:1.8rem;font-size:.82rem;opacity:.65}\n\n/* ---------- 使用说明 ---------- */\n.steps{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:1.6rem}\n.step{background:var(--panel);border-radius:var(--radius);box-shadow:var(--shadow);padding:2rem 1.6rem;border:1px solid var(--line)}\n.step .no{font-size:2.2rem;font-weight:800;color:var(--amber);line-height:1}\n.step h3{margin-top:1rem;font-size:1.05rem;font-weight:700}\n.step p{margin-top:.5rem;font-size:.9rem;color:var(--muted)}\n.guide-note{margin-top:2.5rem;color:var(--muted);font-size:.92rem}\n\n/* ---------- 客户端 ---------- */\n.clients{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1.6rem}\n.client-card{background:var(--panel-2);border-radius:var(--radius);box-shadow:var(--shadow);padding:2.4rem 2rem;border:1px solid var(--line)}\n.client-card h3{font-size:1.1rem;font-weight:700;color:var(--amber-soft)}\n.client-card p{margin-top:.8rem;font-size:.95rem;color:var(--muted)}\n.client-card p strong{color:var(--text);font-weight:600}\n\n/* ---------- FAQ：按主题分组 ---------- */\n.faq-group{margin-bottom:3.2rem}\n.faq-group>h3{font-size:1.05rem;font-weight:700;letter-spacing:.15em;color:var(--amber);margin-bottom:1.2rem}\n.faq-group details{background:var(--panel);border:1px solid var(--line);border-radius:20px;box-shadow:0 14px 34px rgba(2,10,20,.35);margin-bottom:.9rem;overflow:hidden}\n.faq-group summary{cursor:pointer;list-style:none;padding:1.15rem 1.5rem;font-weight:600;font-size:.98rem;display:flex;justify-content:space-between;align-items:center;gap:1rem}\n.faq-group summary::-webkit-details-marker{display:none}\n.faq-group summary::after{content:\"+\";color:var(--amber);font-size:1.3rem;font-weight:700;flex:none}\n.faq-group details[open] summary::after{content:\"–\"}\n.faq-group .ans{padding:0 1.5rem 1.3rem;color:var(--muted);font-size:.93rem}\n\n/* ---------- 页脚 ---------- */\nfooter{padding:3.5rem clamp(1.5rem,7vw,7rem);border-top:1px solid var(--line);display:flex;flex-wrap:wrap;gap:1.5rem;justify-content:space-between;align-items:center;color:var(--muted);font-size:.85rem}\nfooter nav{display:flex;gap:1.4rem}\nfooter nav a{color:var(--muted)}\nfooter nav a:hover{color:var(--amber)}\n\n/* ---------- 手机适配 ---------- */\n@media (max-width:900px){.hero{grid-template-columns:1fr;padding:5rem 1.5rem}\n  .plans{grid-template-columns:1fr}\n  .plan:nth-child(1),.plan:nth-child(2),.plan:nth-child(3){margin-top:0}\n  .steps{grid-template-columns:repeat(2,1fr)}\n  .clients{grid-template-columns:1fr}}\n@media (max-width:560px){\n  .steps{grid-template-columns:1fr}\n  section{padding:4rem 1.5rem}\n}\n</style><main>\n\n  \n  <header class=\"hero\" id=\"top\">\n    <div class=\"hero-inner\">\n      <span class=\"kicker\">科学网 · V2RAY</span>\n      <h1>科学网<em>(v2ray)</em></h1>\n      <p class=\"lede\">\n        不绕弯。<strong>三档套餐</strong>，明码标价。<br>\n        月付可以，年付更省。<br>\n        先看说明，再做决定。\n      </p>\n      <nav class=\"anchor-tags\" aria-label=\"页面导航\">\n        <a href=\"#plans\">套餐价格</a>\n        <a href=\"#guide\">使用说明</a>\n        <a href=\"#clients\">客户端</a>\n        <a href=\"#faq\">常见问题</a>\n      </nav>\n      <p class=\"hero-note\">名称中的 v2ray 标注协议背景。具体实现与可用范围，以开通后提供的说明为准。</p>\n    </div>\n  </header>\n\n  \n  <section id=\"plans\">\n    <div class=\"sec-head\">\n      <h2>套餐</h2>\n      <p>三档。由低到高，逐级递进。流量、设备数、线路权益，写在明处。</p>\n    </div>\n    <div class=\"plans\">\n      <article class=\"plan\">\n        <span class=\"badge\">入门</span>\n        <h3>基础版</h3>\n        <p class=\"price\">¥15/月</p>\n        <p class=\"annual\">按年付仅需 ¥150/年</p>\n        <ul>\n          <li>每月 100GB 极速流量</li>\n          <li>支持 3 台设备同时在线</li>\n          <li>解锁基础流媒体</li>\n          <li>普通线路节点池</li>\n        </ul>\n        <p class=\"foot\">轻度使用，够用就好。</p>\n      </article>\n      <article class=\"plan featured\">\n        <span class=\"badge\">多数人选择</span>\n        <h3>旗舰版</h3>\n        <p class=\"price\">¥35/月</p>\n        <p class=\"annual\">按年付仅需 ¥350/年</p>\n        <ul>\n          <li>每月 300GB 极速流量</li>\n          <li>支持 5 台设备同时在线</li>\n          <li>全节点原生流媒体解锁</li>\n          <li>IPLC 专线游戏加速优化</li>\n          <li>7x24 优先工单支持</li>\n        </ul>\n        <p class=\"foot\">个人主力，一步到位。</p>\n      </article>\n      <article class=\"plan\">\n        <span class=\"badge\">协作</span>\n        <h3>团队版</h3>\n        <p class=\"price\">¥85/月</p>\n        <p class=\"annual\">按年付仅需 ¥850/年</p>\n        <ul>\n          <li>每月 1000GB 极速流量</li>\n          <li>支持 20 台设备同时在线</li>\n          <li>VIP 专属高带宽节点</li>\n          <li>支持企业定制路由</li>\n          <li>专属客户经理服务</li>\n        </ul>\n        <p class=\"foot\">多人共用，集中管理。</p>\n      </article>\n    </div>\n  </section>\n\n  \n  <section id=\"guide\">\n    <div class=\"sec-head\">\n      <h2>使用说明</h2>\n      <p>四步。按顺序来，不会错。</p>\n    </div>\n    <div class=\"steps\">\n      <div class=\"step\">\n        <p class=\"no\">01</p>\n        <h3>选套餐</h3>\n        <p>对照上方三档。看流量，看设备数。选定月付或年付。</p>\n      </div>\n      <div class=\"step\">\n        <p class=\"no\">02</p>\n        <h3>完成开通</h3>\n        <p>提交订单。等待确认。配置信息随后发放。</p>\n      </div>\n      <div class=\"step\">\n        <p class=\"no\">03</p>\n        <h3>导入配置</h3>\n        <p>按随附指引操作。把配置导入对应客户端。</p>\n      </div>\n      <div class=\"step\">\n        <p class=\"no\">04</p>\n        <h3>连接使用</h3>\n        <p>启动连接。确认可用。遇阻先查常见问题。</p>\n      </div>\n    </div>\n    <p class=\"guide-note\">提示：配置信息以开通后实际发放的内容为准。页面不代替开通后的正式指引。</p>\n  </section>\n\n  \n  <section id=\"clients\">\n    <div class=\"sec-head\">\n      <h2>客户端</h2>\n      <p>公开页面不提供下载地址。以下说明保持中性，以开通后的指引为准。</p>\n    </div>\n    <div class=\"clients\">\n      <article class=\"client-card\">\n        <h3>获取方式</h3>\n        <p>客户端名称、适用系统与获取渠道，<strong>随套餐开通后的指引提供</strong>。本站不托管安装文件，不放第三方链接。</p>\n      </article>\n      <article class=\"client-card\">\n        <h3>配置说明</h3>\n        <p>品牌名中的 v2ray 指协议背景。<strong>具体客户端与配置格式</strong>，以服务商发放的配置信息和说明为准。</p>\n      </article>\n    </div>\n  </section>\n\n  \n  <section id=\"faq\">\n    <div class=\"sec-head\">\n      <h2>常见问题</h2>\n      <p>按主题分组。先找主题，再看条目。</p>\n    </div>\n\n    <div class=\"faq-group\">\n      <h3>套餐与付费</h3>\n      <details>\n        <summary>月付和年付有什么区别？</summary>\n        <p class=\"ans\">权益相同。年付总价更低：基础版 ¥150/年，旗舰版 ¥350/年，团队版 ¥850/年。按月折算，各比月付省两个月费用。</p>\n      </details>\n      <details>\n        <summary>可以中途更换套餐吗？</summary>\n        <p class=\"ans\">公开信息未列明换档规则。需要升档或降档，请先联系客服，以对方答复的处理方式为准。</p>\n      </details>\n      <details>\n        <summary>支持退款吗？</summary>\n        <p class=\"ans\">公开页面未公布退款政策。下单前请先向客服确认退款条件，再决定是否购买。</p>\n      </details>\n    </div>\n\n    <div class=\"faq-group\">\n      <h3>使用与连接</h3>\n      <details>\n        <summary>流量用完了怎么办？</summary>\n        <p class=\"ans\">各档月流量分别为 100GB、300GB、1000GB。超出后的处理方式未在公开信息中列明，请咨询客服，或考虑升级到更高档位。</p>\n      </details>\n      <details>\n        <summary>设备数达到上限怎么办？</summary>\n        <p class=\"ans\">先断开不用的设备。仍不够，就升级：基础版 3 台，旗舰版 5 台，团队版 20 台。</p>\n      </details>\n      <details>\n        <summary>连不上时先查什么？</summary>\n        <p class=\"ans\">三步自查。一看配置是否为最新版本。二看客户端是否按指引正确导入。三看本地网络是否正常。三步都排除后，再提交工单。</p>\n      </details>\n    </div>\n\n    <div class=\"faq-group\">\n      <h3>其他</h3>\n      <details>\n        <summary>科学网和 v2ray 是什么关系？</summary>\n        <p class=\"ans\">品牌名以 v2ray 标注协议背景。除此之外的实现细节与服务范围，本站不作延伸说明，以开通后提供的信息为准。</p>\n      </details>\n      <details>\n        <summary>官网提供客户端下载吗？</summary>\n        <p class=\"ans\">不提供公开下载地址。客户端获取方式随套餐开通后的指引发放。</p>\n      </details>\n    </div>\n  </section>\n\n</main>\n\n<footer>\n  <p>© 科学网(v2ray) · 页面信息以开通后正式说明为准</p>\n  <nav aria-label=\"页脚导航\">\n    <a href=\"#plans\">套餐</a>\n    <a href=\"#guide\">使用说明</a>\n    <a href=\"#clients\">客户端</a>\n    <a href=\"#faq\">常见问题</a>\n    <a href=\"#top\">回到顶部</a>\n  </nav>\n</footer>",
+          "hash": "6ec164d4871525b68c1be0c0ca928de8ae23ba3b3778374e1454f8d58051606d",
+          "seo": {
+            "title": "科学网(v2ray) — 套餐、使用说明与常见问题",
+            "keywords": "科学网,v2ray,套餐价格,使用说明,客户端,常见问题",
+            "description": "科学网(v2ray)：三档套餐，明码标价。基础版、旗舰版、团队版，月付年付任选。使用说明简明，常见问题按主题分组，先读再买。"
+          },
+          "provider": "grok",
+          "model": "kimi-k3",
+          "design": {
+            "no": "5702",
+            "hero": "7 窄栏居左配大面积留白",
+            "palette": "3 深海蓝配琥珀",
+            "nav": "3 首屏内嵌锚点标签",
+            "card": "3 大圆角软阴影",
+            "plans_view": "3 阶梯式递进排列",
+            "faq_view": "3 按主题分组",
+            "tone": "3 简洁利落的短句",
+            "order": "首屏优先，其余区块由 AI 根据已选构图和信息关系安排"
+          }
+        }
+      }
+    }
+  ],
+  "domain": {
+    "apex": "ynvhomo.cn",
+    "host": "p-655d3f3681.ynvhomo.cn",
+    "kind": "subdomain",
+    "candidate_roots_ref": "subdomain_roots:91e741dce7c147d9ce91af6f84daa678dae755807d903b04925261e0a3a8d804",
+    "prefix_mode": "auto"
+  },
+  "friendlinks": [],
+  "file_hashes": {
+    "index.html": "a0eaad47a26724296440bcbe93ce9e2f1ecf30183b967e97df83aeca7da711e5",
+    "sitemap.xml": "4b36490eb228902acbe8737bf4785f605aea031739fce3c08b740429c79361b8",
+    ".nojekyll": "12ae32cb1ec02d01eda3581b127c1fee3b0dc53572ed6baf239721a03d82e126",
+    "CNAME": "5dc5020ff5417d8dc1c6ca4ec9e8756efa531540b8306eef0add5fc8620689af",
+    "robots.txt": "473d64e19551fd4fc4d7e2e1ed8fdb92988fcd4652a741829f7cdae3f221a49d",
+    "d3ec7977e7e1bc789a897b85ee0c94d9.txt": "5ce8ef3e5d61928c62808114bb8909b8c5d9ff2c2d1cf143eac955e02fd9d4f3"
+  },
+  "revision": "e0978876a1233bc2ae4c27f697eb051d7c7bc96016b869fa01e4f69c36fcb82d"
+}
